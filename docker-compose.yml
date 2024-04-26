@@ -21,8 +21,8 @@ services:
       - MOODLE_DATABASE_PASSWORD=your_password
       - MOODLE_DATABASE_NAME=bitnami_moodle
       - MOODLE_SITE_NAME=KidzEconomy
-      - MOODLE_USERNAME=aadya
-      - MOODLE_PASSWORD=aadya
+      - MOODLE_USERNAME=user
+      - MOODLE_PASSWORD=moodle
     volumes:
       - "moodle_data:/bitnami/moodle"
       - "moodledata_data:/bitnami/moodledata"
